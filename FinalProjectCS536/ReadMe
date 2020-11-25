@@ -1,0 +1,6 @@
+P6 Daniel Bondi
+
+Clean: make clean
+Compile: make
+Test: make test 
+input: test.cmm, output test.s

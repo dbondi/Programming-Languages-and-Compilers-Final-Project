@@ -1,0 +1,84 @@
+int x;	
+int y;
+bool d;
+
+struct testStruct{	
+  int s1;
+  int s2;
+  };
+
+struct testStruct struct1;
+
+void testFunctionNoArgNoBody()
+{} 
+
+bool testFunctionNoBody(int a, int b){
+
+}
+
+int testFunction(int a, int b, bool c){ 
+int k;
+a = b; 
+c= true; 
+while(c){
+  b++;
+  b--;
+  c=false;
+} 
+
+if(a==b){
+  a=a*b;
+  } 
+if(a==b)
+{
+  c=testFunctionNoBody(a,b);
+}
+else{
+  b++;
+} 
+cin >> a;
+cout << b;
+repeat(a){
+c=testFunctionNoBody(a+b,a-b); 
+d = false; 
+d= d||c&&c;
+} 
+k = -a-b-a; 
+return a+b;
+} 
+
+int dotTest1(int r,int g){ 
+int f;
+bool y;
+f=10000;
+y=false;
+x = 1; 
+if(x>r){} 
+if(x<r){} 
+if(x>=r){} 
+if(x<=r){} 
+if(x!=1){
+return 1;
+} 
+return 0;
+}
+
+void dotTest2(int r,int g){ 
+x = dotTest1(r,g); 
+dotTest1(r,g);
+if(x>r){} 
+if(x<r){} 
+if(x>=r){} 
+if(x<=r){} 
+if(x!=1){
+return;
+} 
+if(x==1){
+return;
+} 
+return;
+}
+
+void main(){
+
+}
